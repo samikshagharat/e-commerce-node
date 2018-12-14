@@ -1,0 +1,30 @@
+{
+  "name": "my_first_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "nodemon server.js",
+    "debugg": "nodemon --inspect server.js",
+    "from-start": "nodemon --inspect-brk server.js"
+  },
+  "keywords": [
+    "hello",
+    "world"
+  ],
+  "author": "ana",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.3.14",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
